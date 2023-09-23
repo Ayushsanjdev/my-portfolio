@@ -1,0 +1,16 @@
+:root {
+  $primary-color: red;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+* {
+  background-color: $primary-color;
+}

@@ -1,6 +1,5 @@
 # dependencies
 
-
 # testing
 
 
@@ -11,7 +10,7 @@
 
 
 # misc
-
+/node_modules
 
 # debug
 
