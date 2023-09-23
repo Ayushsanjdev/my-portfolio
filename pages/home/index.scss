@@ -1,5 +1,13 @@
+@font-face {
+  font-family: Mooli;
+  src: url("../../assets/fonts/Mooli-Regular.ttf");
+}
+
 :root {
-  $primary-color: red;
+  font-size: 18px;
+  font-family: Mooli;
+  font-weight: 400;
+  $bg-primary: "#eef";
 }
 
 html,
@@ -12,5 +20,10 @@ body {
 }
 
 * {
-  background-color: $primary-color;
+  background-color: $bg-primary;
+}
+
+.nav-link {
+  padding-right: 3rem;
+  float: right;
 }
