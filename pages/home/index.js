@@ -1,7 +1,7 @@
 const app = document.querySelector("#app");
 const nav = document.querySelector("#nav");
 
-console.log("testing");
+console.log("script running...");
 const routeConfig = {
   "/pages/home": {
     linkLabel: "Home",
